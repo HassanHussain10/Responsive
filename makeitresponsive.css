@@ -1,0 +1,209 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: "Bodoni MT";
+    background-color: burlywood;
+    
+}
+
+h1{
+    text-align: center;
+    border-style: solid;
+    border-color: burlywood;
+    border-radius: 30px 30px 30px 30px;
+    font-family: Algerian;
+    background-color: #fff6c2; 
+    margin: 10px;
+}
+
+#tekstboks1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: burlywood;
+    color: white;
+    height: 75px;
+    
+}
+a{
+    font-weight: bold;
+    font-family: "Bodoni MT";
+    font-size: large;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+    color: black;
+}
+
+a:hover{
+    border-style: solid;
+    background-color: #555555;
+    color: wheat;
+}
+.icon{
+    display: none;
+}
+
+#tekstboks2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 20vh;
+    line-height: 1.5;
+    margin: 20px;
+    padding: 30px;
+    background-color: #fff6c2;
+    position: relative;
+}
+
+#logo{
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px 15px 15px 15px;
+}
+
+p{
+   text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+th, td{
+    border-style: solid;
+    border-color: black;
+    background-color: #fff6c2;
+}
+
+#tabell1 {
+    margin-left: 50%;
+}
+#tabell2{
+    margin-left: 25%;
+}
+
+#tabell3{
+    margin-right: 25%;
+}
+
+#tabeller {
+    border-style: solid;
+    border-color: black;
+    border-radius: 0px 15px 0px 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: salmon;
+}
+
+
+
+#kontakt{
+
+    border-color: black;
+    border-style: solid;
+    width: 350px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #fff6c2;
+    border-radius: 0px 15px 0px 15px;
+
+}
+
+#person1{
+
+    border-style: solid;
+    border-color: black;
+    border-radius: 0px 15px 0px 15px;
+    background-color: #fff6c2;
+}
+
+#person2{
+    margin-top: 10px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 0px 15px 0px 15px;
+    background-color: #fff6c2;
+}
+#person3{
+    margin-top: 10px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 0px 15px 0px 15px;
+    background-color: #fff6c2;
+}
+#person4{
+    margin-top: 10px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 0px 15px 0px 15px;
+    background-color: #fff6c2;
+}
+
+#bilde1 {
+    max-width: 100%;
+}
+#bilde2 {
+    max-width: 100%;
+}
+#bilde3 {
+    max-width: 100%;
+}
+#bilde4 {
+    max-width: 100%;
+}
+
+
+@media(max-width: 650px) {
+    #person1, #person2, #person3, #person4 {
+        width: 100%;
+        display: block;
+    }
+    header{
+        position: relative;
+    }
+    h1{
+        display: block;
+    }
+    a{
+        border-bottom:solid black 2px;
+        border-bottom-width: inherit;
+    }
+    #tekstboks1{
+        margin-top: 100px;
+        flex-direction: column;
+        margin-bottom: 100px;
+
+    }
+}
+/*
+#tekstboks1{
+  float: top;
+  height: 75px;
+  width: 960px;
+  border-style: ridge;
+  border-color: darkred;
+  margin-left: 200px;
+  margin-right: 200px;
+  word-spacing: 30px;  
+  text-align: center;
+  background-color: lightsalmon;
+  clear: both;
+}
+
+#tekstboks2{
+    height: 400px;
+    width: 400px;
+    margin-top: 10px;
+    margin-right: 35%;
+    margin-left: 35%;
+    border-color: black;
+    border-style: solid;
+    border-radius: 15px 0px 15px 0px;
+    float: top;
+    background-color: #fff6c2;
+}
+*/
